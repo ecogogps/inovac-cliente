@@ -1,0 +1,14 @@
+tsconfig.tsbuildinfo
+/node_modules
+next-env.d.ts
+.vercel
+.next
+.turbo
+
+# env files / secrets (keep only the template)
+.env
+.env.*
+!.env.example
+
+# OS / editor junk
+.DS_Store

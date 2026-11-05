@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67 88">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #bc0008;
+      }
+
+      .cls-3 {
+        fill: #989898;
+      }
+    </style>
+  </defs>
+  <g id="Layer_4" data-name="Layer 4">
+    <g>
+      <g>
+        <polygon id="letter_I" data-name="letter I" class="cls-2" points="35.78 15.44 40.98 15.44 40.98 10.44 35.78 10.44 30.58 10.44 25.38 10.44 25.38 15.44 30.58 15.44 30.58 15.44 30.58 72.44 30.58 72.44 25.38 72.44 25.38 77.44 30.58 77.44 35.78 77.44 40.98 77.44 40.98 72.44 35.78 72.44 35.78 72.44 35.78 15.44 35.78 15.44"/>
+        <g id="Parentesis_Right" data-name="Parentesis Right">
+          <polygon class="cls-3" points="56.58 10.45 56.58 48.46 51.38 45.45 51.38 15.45 46.18 15.45 46.18 10.45 56.58 10.45"/>
+          <polygon class="cls-3" points="56.58 54.46 56.58 60.46 51.38 57.46 51.38 51.46 56.58 54.46"/>
+          <polygon class="cls-3" points="56.58 66.47 56.58 77.45 46.18 77.45 46.18 72.45 51.38 72.45 51.38 63.47 56.58 66.47"/>
+        </g>
+        <g id="Parentesis_Left" data-name="Parentesis Left">
+          <polygon class="cls-3" points="14.98 15.45 14.98 20.45 14.99 20.45 14.99 24.44 9.79 21.44 9.79 20.45 9.78 20.45 9.78 10.45 20.18 10.45 20.18 15.45 14.98 15.45"/>
+          <polygon class="cls-3" points="20.19 72.45 20.19 77.45 9.79 77.45 9.79 39.45 14.99 42.46 14.99 72.45 20.19 72.45"/>
+          <polygon class="cls-3" points="14.99 30.45 14.99 36.45 9.79 33.45 9.79 27.44 14.99 30.45"/>
+        </g>
+      </g>
+      <rect class="cls-1" width="67" height="88"/>
+    </g>
+  </g>
+</svg>

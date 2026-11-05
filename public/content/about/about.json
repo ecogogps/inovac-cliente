@@ -1,0 +1,20 @@
+{
+  "title": "Sobre Nosotros",
+  "heroimage": "/arquitectePlanBg.webp",
+  "text1": "Desde su fundación, INOVAC ha desafiado los límites convencionales del diseño y construcción, incorporando innovación y creatividad en cada uno de nuestros proyectos con nuevas tecnologías y técnicas de construcción para lograr resultados sorprendentes.",
+  "text2": "Como empresa nos enorgullece nuestra capacidad para diseñar espacios únicos y personalizados que reflejan las necesidades y aspiraciones de nuestros clientes. Pues en el dinámico mundo de la arquitectura y construcción en Ecuador, nos destacamos por ser una empresa innovadora que ha demostrado su pasión y creatividad a través de proyectos que trascienden.",
+  "image1": "/nosotros1.jpg",
+  "image2": "/nosotros2.jpg",
+  "image3": "/nosotros4.jpg",
+  "text3": "En INOVAC, nos dedicamos a diseñar y construir espacios innovadores y sostenibles que mejoran la calidad de vida de nuestros clientes. A través de un enfoque centrado en la calidad, la creatividad y la personalización, nos esforzamos por superar las expectativas, mientras promovemos prácticas responsables con el medio ambiente.",
+  "imageForText3": "/nosotros5.jpg",
+  "text4": "Nuestra visión es ser reconocidos como líderes innovadores en la industria del diseño y la construcción, transformando espacios con creatividad y funcionalidad, mientras promovemos la sostenibilidad y el bienestar de nuestros clientes.",
+  "imageForText4": "/nosotros7.jpg",
+  "bracketSubtitle": "Diseñamos el futuro de la construcción",
+  "carousel": {
+    "carouselImg1": "/organigrama1.png",
+    "carouselImg2": "/organigrama2.png",
+    "carouselImg3": "/organigrama3.png",
+    "carouselImg4": "/organigrama4.png"
+  }
+}

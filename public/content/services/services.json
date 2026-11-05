@@ -1,0 +1,47 @@
+{
+  "title": "Diseñamos el futuro de la",
+  "heroimage": "/ServiciosEncabezado2.jpg",
+  "highlightWord": "Construcción",
+  "subtitle": "Nuestros clientes obtienen una asesoría con ideas técnicas y profesionales en las áreas de diseño, construcción y remodelación",
+  "sectionTitle": "Servicios",
+  "services": {
+    "service1": {
+      "name": "Diseño",
+      "image": "/coverDiseno.jpg",
+      "linkService": "/services#diseno",
+      "description": "El diseño arquitectónico es crucial para crear espacios funcionales, estéticos y sostenibles. Ofrecemos consultoría inicial para entender necesidades, deseos y presupuesto de nuestros clientes. Luego, desarrollamos un diseño preliminar y finalmente elaboramos los planos y documentos para la construcción. Nuestro servicio profesional asegura un diseño arquitectónico profesional que garantiza que el proyecto final sea un reflejo fiel de las aspiraciones del cliente, respetando el presupuesto y los plazos."
+    },
+    "service2": {
+      "name": "Construcción",
+      "image": "/coverConstruccion.jpg",
+      "linkService": "/services#construccion",
+      "description": "En la construcción de proyectos, nuestra gestión es crucial para asegurar el éxito desde su concepción hasta la finalización. Brindamos una planificación adecuada, definiendo objetivos claros, estableciendo un cronograma detallado y asignando los recursos necesarios. Este proceso implica varios pasos y responsabilidades claves que deben sin duda deben ser manejados con eficacia. Con INOVAC, obtienes una gestión efectiva que garantiza la finalización a tiempo y dentro del presupuesto, mejora la calidad del trabajo y aumenta la satisfacción del cliente."
+    },
+    "service3": {
+      "name": "Remodelación",
+      "image": "/coverRemodelacion.jpg",
+      "linkService": "/services#remodelacion",
+      "description": "La remodelación de un espacio puede ser una tarea emocionante y desafiante al mismo tiempo. Para nosotros toda remodelación es una inversión en tu calidad de vida y en el valor de tu propiedad. Es por esta razón que nuestros servicios cuentan con planificación adecuada y la orientación de expertos, obteniendo un resultado verdaderamente transformador. Es así que nuestras propuestas mejoran la estética y funcionalidad de los espacios. Al elegirnos, puedes asegurarte de que tu proyecto de remodelación se complete de manera eficiente y satisfactoria."
+    }
+  },
+  
+  "designTypes": [
+  {
+    "label": "Diseño Residencial",
+    "description": "En INOVAC Planificamos, diseñamos y construimos el espacio al que puedas llamar hogar."
+  },
+  {
+    "label": "Diseño Comercial",
+    "description": "Los espacios comerciales para INOVAC están llenos de creatividad que hacen que los espacios simples se conviertan en negocios funcionales."
+  },
+  {
+    "label": "Diseño Corporativo",
+    "description": "Para INOVAC es importante brindar un servicio integral, que va desde la definición del concepto de tu empresa, el diseño del espacio donde la imagen refleja los valores empresariales hasta la ejecución de la obra."
+  }
+  ],
+  "bracketSubtitle": "Construyamos juntos un espacio que sea un reflejo de tu visión y un compromiso con el futuro.",
+  "comunicateSubHeading": "Comunícate con nosotros, estamos listos para asesorarte.",
+  "whatsappText": "Puedes enviarnos un mensaje llenando el formulario, o comunicarte via whatsapp."
+}
+
+

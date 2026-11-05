@@ -1,0 +1,181 @@
+backend:
+  name: git-gateway
+  repo: davidberco/inovac-client
+  local_backend: true # optional; defaults to false
+  branch: main
+  identity_url: https://auth.decapbridge.com/sites/4a9f1804-2040-4ddf-9ae0-2e39b17885e9
+  gateway_url: https://gateway.decapbridge.com
+
+publish_mode: editorial_workflow
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "home"
+    label: "Home Page"
+    files:
+      - file: "public/content/home/home.json"
+        label: "Home Page"
+        name: "home_content"
+        format: "json"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "HighlightWord", name: "highlightWord", widget: "string" }
+          - { label: "Banner1", name: "banner1", widget: "text" }
+          - { label: "Banner2", name: "banner2", widget: "text" }
+          - { label: "bracketSubtitle1", name: "bracketSubtitle1", widget: "text" }
+          - { label: "bracketSubtitle2", name: "bracketSubtitle2", widget: "text" }
+          - { label: "bracketSubtitle3", name: "bracketSubtitle3", widget: "text" }
+          - { label: "subtitle1", name: "subtitle1", widget: "text" }
+
+          - { label: "Texto Final", name: "finalTitle", widget: "text" }
+          - { label: "Texto finalSubtitle", name: "finalSubtitle", widget: "text" }
+          - { label: "bracketSubtitle", name: "bracketSubtitle", widget: "text" }
+
+  - name: "about"
+    label: "Nosotros"
+    files:
+      - file: "public/content/about/about.json"
+        label: "Sobre Nosotros"
+        name: "about_content"
+        format: "json"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "HeroImage", name: "heroimage", widget: "image" }
+          - { label: "Texto 1", name: "text1", widget: "text" }
+          - { label: "Texto 2", name: "text2", widget: "text" }
+          - { label: "Imagen1", name: "image1", widget: "image" }
+          - { label: "Imagen2", name: "image2", widget: "image" }
+          - { label: "Imagen3", name: "image3", widget: "image" }
+          - { label: "Texto 3", name: "text3", widget: "text" }
+          - { label: "imagen de Text3", name: "imageForText3", widget: "image" }
+          - { label: "Texto 4", name: "text4", widget: "text" }
+          - { label: "imagen de Text4", name: "imageForText4", widget: "image" }
+          - { label: "bracketSubtitle", name: "bracketSubtitle", widget: "text" }
+          - label: carousel
+            name: carousel
+            widget: object
+            fields:
+            - { label: "Carousel Image 1", name: "carouselImg1", widget: "image" }
+            - { label: "Carousel Image 2", name: "carouselImg2", widget: "image" }
+            - { label: "Carousel Image 3", name: "carouselImg3", widget: "image" }
+            - { label: "Carousel Image 4", name: "carouselImg4", widget: "image" }
+
+  - name: "services"
+    label: "Servicios"
+    files:
+      - file: "public/content/services/services.json"
+        label: "Servicios"
+        name: "services_content"
+        format: "json"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "HeroImage", name: "heroimage", widget: "image" }
+          - { label: "HighlightWord", name: "highlightWord", widget: "string" }
+          - { label: "subtitle", name: "subtitle", widget: "string" }
+          - { label: "sectionTitle", name: "sectionTitle", widget: "string" }
+          - label: "Lista de Servicios"
+            name: "services"
+            widget: "list"
+            fields:
+            - { label: "Nombre", name: "name", widget: "string" }
+            - { label: "Imagen", name: "image", widget: "image" }
+            - { label: "Enlace", name: "linkService", widget: "string" }
+            - { label: "Descripción", name: "description", widget: "text" }
+            
+          - label: "Tipos de Diseño"
+            name: "designTypes"
+            widget: "list"
+            fields:
+            - { label: "Etiqueta", name: "label", widget: "string" }
+            - { label: "Descripción", name: "description", widget: "text" }
+          - { label: "Texto en brackets", name: "bracketSubtitle", widget: "text" }
+          - { label: "comunicate SubHeading", name: "comunicateSubHeading", widget: "string" }
+          - { label: "Whatsapp text", name: "whatsappText", widget: "text" }
+  
+  - name: "portafolio"
+    label: "Portafolio"
+    files:
+      - file: "public/content/portafolio/portafolio.json"
+        label: "Portafolio"
+        name: "portafolio_content"
+        format: "json"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "HeroImage", name: "heroimage", widget: "image" }
+          - { label: "HighlightWord", name: "highlightWord", widget: "string" }
+          - { label: "subtitle", name: "subtitle", widget: "text" }
+          - { label: "sectionTitle", name: "sectionTitle", widget: "string" }
+          - label: "Residencial"
+            name: "residencial"
+            widget: "object"
+            fields:
+              - { label: "Imagen", name: "image", widget: "image" }
+              - label: "Clientes"
+                name: "clientes"
+                widget: "list"
+                fields:
+                  - { label: "Nombre del Cliente", name: "name", widget: "string" }
+          - label: "Corporativo"
+            name: "corporativo"
+            widget: "object"
+            fields:
+              - { label: "Imagen", name: "image", widget: "image" }
+              - label: "Clientes"
+                name: "clientes"
+                widget: "list"
+                fields:
+                  - { label: "Nombre del Cliente", name: "name", widget: "string" }
+          - label: "Arquitectura y Planificación"
+            name: "arquitecturaPlanificacion"
+            widget: "object"
+            fields:
+              - { label: "Imagen", name: "image", widget: "image" }
+              - label: "Clientes"
+                name: "clientes"
+                widget: "list"
+                fields:
+                  - { label: "Nombre del Cliente", name: "name", widget: "string" }
+          - { label: "Subtitulo testimonios", name: "testimoniosSubtitle", widget: "text" }
+          - label: "Testimonios"
+            name: "testimonios"
+            widget: "list"
+            min: 2
+            max: 4
+            fields:
+              - { label: "Nombre", name: "name", widget: "string" }
+              - { label: "Proyecto", name: "handle", widget: "string" }
+              - { label: "Testimonio", name: "text", widget: "text" }
+
+          - { label: "Titulo banner", name: "bannerTitle", widget: "string" }
+          - { label: "Subtitulo banner", name: "bannerSubTitle", widget: "string" }
+  
+  - name: "contact"
+    label: "Contactanos"
+    files:
+      - file: "public/content/contact/contact.json"
+        label: "Contactanos"
+        name: "contact_content"
+        format: "json"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "HeroImage", name: "heroimage", widget: "image" }
+          - { label: "SubTítulo", name: "subtitle", widget: "string" }
+          - { label: "Whatsapp Texto 1", name: "whatsappText1", widget: "string" }
+          - { label: "bracketSubtitle", name: "bracketSubtitle", widget: "text" }
+          - { label: "Whatsapp Texto 2", name: "whatsappText2", widget: "string" }
+
+  - name: "blog"
+    label: "Blog"
+    folder: "public/content/blog"
+    create: true
+    slug: "{{slug}}"
+    format: "json"
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "date", label: "Publish Date", widget: "datetime" }
+      - { name: "author", label: "Author", widget: "string" }
+      - { name: "excerpt", label: "Excerpt", widget: "text" }
+      - { name: "coverImage", label: "Cover Image", widget: "image" }
+      - { name: "content", label: "Content", widget: "markdown" }

@@ -1,0 +1,70 @@
+# License and Attribution
+
+## About this project
+
+This website for Inovac Construcciones was designed and developed by
+Bercostudio (https://bercostudio.com).
+
+It started from a free, open-source starter template published under the MIT
+License (see "Original template license" below). That template provided only the
+basic project scaffolding: a Next.js setup, tooling configuration, a handful of
+generic building blocks and an inactive WordPress client (src/lib/wordpress.ts
+and related files), which is not part of the original work described below and
+is not used by the website.
+
+Everything that makes this a working website for Inovac Construcciones is
+original work by Bercostudio, created on top of that starting point. This
+includes, among other things:
+
+- The complete visual design and branding of the site (layout, typography,
+  colors, imagery and responsive behavior).
+- All pages and their content structure: home, about, services, portfolio,
+  contact, terms and blog.
+- A custom library of UI components (sections, carousels, testimonials, posts
+  and more) built specifically for this project.
+- UI interactions and animations.
+- The setup of the content editing area and the blog.
+- Content migration, image optimization, SEO and analytics setup.
+- Deployment and hosting configuration.
+
+Copyright (c) 2025-2026 Bercostudio, for the original work described above.
+
+The use, transfer and ownership of this original work by the client are
+governed by the agreement between Bercostudio and Inovac Construcciones, not by
+the MIT License below. The MIT License below applies only to the portions of the
+code that come from the original template.
+
+Except as expressly allowed by that agreement, the original work may not be
+copied, reproduced, adapted, redistributed, or handed to or used by any third
+party (including another studio, agency or developer, and including by means of
+automated or AI-assisted tools) to recreate this website or its components,
+without the prior written authorization of Bercostudio.
+
+---
+
+## Original template license
+
+The following license applies to the original starter template, and its notice
+must be kept in all copies of that portion of the software.
+
+# MIT License
+
+Copyright (c) 2025 blefnk Nazar Kornienko, Reliverse, Bleverse
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

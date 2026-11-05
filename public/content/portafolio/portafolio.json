@@ -1,0 +1,59 @@
+{
+  "title": "La excelencia de una marca está en sus",
+  "heroimage": "/EncabezadoPortafolio3.jpg",
+  "highlightWord": "Clientes",
+  "subtitle": "Te mostramos nuestro portafolio con varios de nuestros proyectos.",
+  "sectionTitle": "Portafolio",
+  "bracketSubtitle": "Aquí podrás ver la fusión de servicios que ofrecemos.",
+  "residencial": {
+    "name": "Residencial",
+    "image": "/residencial.jpg",
+    "clientes": {
+      "name1": "Residencia Córdova Hernández",
+      "name2": "Residencia Proaño Córdova",
+      "name3": "Edificio SINAI"
+    }
+  },
+  "corporativo": {
+    "name": "Corporativo",
+    "image": "/Corporativo.jpg",
+    "clientes": {
+      "name1": "Larco Visión. Clínica oftalmológica",
+      "name2": "Elicrom. Sede Quito"
+    }
+  },
+  "arquitecturaPlanificacion": {
+    "name": "Arquitectura y Planificación",
+    "image": "/ArquitecturaYplanificación2.jpg",
+    "clientes": {
+        "name1": "Diseño comercial Pizza 593",
+        "name2": "Diseño comercial Food Truck",
+        "name3": "Diseño de mobiliario lúdico infantil"
+  }
+  },
+  "testimoniosSubtitle": "La opinión de nuestros clientes es fundamental para nosotros. Aquí te presentamos algunos testimonios que reflejan la calidad y dedicación que ponemos en cada proyecto.",
+  "testimonios": [
+    {
+      "name": "Miguel Proaño",
+      "handle": "Residencia Proaño Córdova",
+      "text": "Recomendaría sin dudar los servicios de remodelación de Inovac Construcciones a cualquier persona que busque realizar mejoras en su hogar. La combinación de profesionalismo, calidad y atención al cliente que ofrecen es difícil de igualar. Estoy muy agradecido por el excelente trabajo realizado y espero trabajar con ellos en futuros proyectos."
+    },
+    {
+      "name": "María Pullas",
+      "handle": "Edificio SINAI",
+      "text": "Los servicios de Inovac fueron sumamente profesionales. Desde el primer contacto, me brindaron un asesoramiento claro y detallado sobre las opciones disponibles y el cronograma estimado. Durante la ejecución del proyecto, los trabajadores fueron puntuales, respetuosos y mantuvieron el área de trabajo limpia y organizada. Los materiales utilizados fueron de primera categoría, y la atención al detalle fue notable. La transformación del edificio fue espectacular y ha mejorado significativamente el aspecto, la calidad del trabajo superó mis expectativas."
+    },
+    {
+      "name": "Camilo Córdova",
+      "handle": "Residencia Córdova Hernández",
+      "text": "Mi experiencia con el servicio de diseño y construcción con Inovac fue excelente. La calidad de la construcción fue sobresaliente. Desde los materiales utilizados hasta los acabados, todo fue de primera calidad. El equipo mostró un gran nivel de detalle y compromiso para garantizar que cada aspecto del proyecto se realizará a la perfección. Recomiendo encarecidamente sus servicios a cualquiera que busque un proyecto bien gestionado, innovador y de alta calidad. Estoy extremadamente satisfecho con los resultados y agradecido por haber trabajado con un equipo tan profesional y dedicado."
+    },
+    {
+      "name": "Sabino Pineda",
+      "handle": "ELICROM",
+      "text": "Durante el desarrollo de nuestro proyecto con los servicios de Inovac Construcciones, uno de los aspectos que más valoro es la creatividad e innovación que demostraron. Me ofrecieron varias opciones y soluciones innovadoras, lo que resultó en un diseño final que fue funcional y estéticamente impresionante. La construcción fue llevada a cabo con gran precisión y cuidado. El equipo mantuvo una comunicación constante conmigo, informándome sobre el progreso y asegurándose de que estuviera satisfecho con cada etapa del proceso. Además, cumplieron con los plazos establecidos, algo que valoro profundamente. Desde el principio, el equipo de diseño y construcción se destacó por su excelente atención al cliente. Fueron siempre amables y se mostraron interesados en entender mis necesidades y expectativas. Durante nuestra primera reunión, me escucharon atentamente y se aseguraron de responder a todas mis preguntas, lo que me dio mucha confianza para trabajar con ellos. Aquí comparto mi testimonio, esperando que pueda ser útil para quienes estén considerando contratar estos servicios."
+    }
+  ],
+  "bannerTitle": "¿Listo para hacer realidad tus sueños?",
+  "bannerSubTitle": "Construyamos juntos un espacio que sea un reflejo de tu visión"
+}

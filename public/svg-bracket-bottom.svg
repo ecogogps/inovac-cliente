@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 401 69.74">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a9a6a6;
+        stroke: #a9a6a6;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke: #000;
+      }
+    </style>
+  </defs>
+  <g id="Layer_4" data-name="Layer 4">
+    <g>
+      <g id="Parentesis_Left" data-name="Parentesis Left">
+        <polygon class="cls-2" points="37.57 31 66.84 31 66.84 30.94 90.2 30.94 72.64 61.38 66.84 61.38 66.84 61.43 8.3 61.43 8.3 .56 37.57 .56 37.57 31"/>
+        <polygon class="cls-2" points="371.23 .5 400.5 .5 400.5 61.38 178.06 61.38 195.68 30.94 371.23 30.94 371.23 .5"/>
+        <polygon class="cls-2" points="125.38 30.94 160.5 30.94 142.94 61.38 107.76 61.38 125.38 30.94"/>
+      </g>
+      <polygon class="cls-1" points="29.77 38.8 59.04 38.8 59.04 38.74 82.39 38.74 64.83 69.18 59.04 69.18 59.04 69.24 .5 69.24 .5 8.36 29.77 8.36 29.77 38.8"/>
+      <polygon class="cls-1" points="363.43 8.3 392.7 8.3 392.7 69.18 170.26 69.18 187.88 38.74 363.43 38.74 363.43 8.3"/>
+      <polygon class="cls-1" points="117.57 38.74 152.7 38.74 135.13 69.18 99.95 69.18 117.57 38.74"/>
+    </g>
+  </g>
+</svg>
