@@ -178,9 +178,9 @@ export function Footer({ className }: { className?: string }) {
               </p>
             </div>
             <div className="flex items-center gap-4 text-sm text-background">
-              <p>Web Development by {" "}
-              <Link href="https://www.bercostudio.com" target='_blank' className="hover:text-yellow-500 font-bold">
-                BercoStudio
+              <p>Powered by {" "}
+              <Link href="https://www.brandingmaker.ca" target='_blank' className="hover:text-yellow-500 font-bold">
+                Branding Maker Agency
               </Link>
               </p>
             </div>
