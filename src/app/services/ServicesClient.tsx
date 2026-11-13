@@ -243,7 +243,7 @@ export default function ServicesClient({ content }: Props) {
                 { content.whatsappText }
               </h2>
               <div className="m-6 flex gap-6 flex-row center justify-center">
-                <Link href="wa.me/593983738528" target="_blank" rel="noopener noreferrer">
+                <Link href="https://wa.me/593983738528" target="_blank" rel="noopener noreferrer">
                   <Button variant="default" size="lg" className="h-12 px-8 uppercase">
                     <FaWhatsapp className="h-12 w-12" />
                     Whatsapp
