@@ -171,13 +171,6 @@ export function Footer({ className }: { className?: string }) {
               </Link>
             </div>
             <div className="flex items-center gap-4 text-sm text-background">
-              <p>Proyecto liderado por {" "}
-              <Link href="https://brandingmaker.ca/" target='_blank' className="hover:text-foreground font-bold">
-              Branding Maker Agency
-              </Link>
-              </p>
-            </div>
-            <div className="flex items-center gap-4 text-sm text-background">
               <p>Powered by {" "}
               <Link href="https://www.brandingmaker.ca" target='_blank' className="hover:text-yellow-500 font-bold">
                 Branding Maker Agency
